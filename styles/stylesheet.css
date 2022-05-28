@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin:0;
     font-family: 'Roboto' ,'sans-serif';
@@ -22,9 +26,11 @@ header{
 }
 .links{
     font-size:18px;
-    color:#E5E7EB;
+    color:#E5E7EB;   
 }
 .links a{
+    text-decoration: none;
+    color:#E5E7EB; 
     padding-right: 5px;
 }
 
@@ -68,17 +74,18 @@ header{
     border: 1px solid #3882F6;
     padding: 5px 25px 5px 25px;
 }
+#btn1:hover{
+    background-color: #F9FAF8;
+    color: #3882F6;
+}
 .c1Right{
-    background-color: #6C747E;
     width:50%;
     height:100%;
 }
-.c1Right p{
-    color: #E5E7EB;
-    text-align: center;
-    padding: 100px 0 100px 0;
-    
+.c1Right img{
+    width: 100%;
 }
+
 
 /* END OF CONTAINER 1 */
 
@@ -111,7 +118,10 @@ header{
 .outline{
     width:150px;
     height:150px;
-    border: 3px solid #3882F6;
+    border-radius: 15px;
+}
+.outline img{
+    width:100%;
     border-radius: 15px;
 }
 
@@ -126,7 +136,7 @@ header{
     justify-content:center;
 }
 .c3Content{
-    padding: 50px 0 50px 0;
+    padding: 70px 0 70px 0;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -141,7 +151,7 @@ header{
 .container3 .quoteName{
     font-size:24px;
     font-weight:bold;
-    margin-top: 0;
+    margin-top: 5px;
     padding-right: 10px;
 }
 
@@ -179,6 +189,10 @@ header{
     background-color: transparent;
     border: 2px solid #E5E7EB;
     border-radius:5px;
+}
+#btn2:hover{
+    background-color: #F9FAF8;
+    color: #3882F6;
 }
 
 /* END OF CONTAINER 4 */
